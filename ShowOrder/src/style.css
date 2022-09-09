@@ -1,0 +1,53 @@
+#pane{
+	-fx-background-color: white;
+    -fx-background-image: url("OptimaLogo.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 380 380;
+    -fx-background-position: bottom ;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+#pane2{
+	-fx-background-color: white;
+
+	
+}
+#load{
+	-fx-background-color:linear-gradient(rgb(235, 226, 235),pink);
+}
+#title{
+	-fx-color: rgb(82, 82, 82);
+	-fx-font-size: 30;
+	-fx-font-weight: bolder;
+}
+#upload{
+	-fx-max-width: 500;
+}
+#double{
+	-fx-fill: rgb(47, 74, 159);
+}
+#single{
+	-fx-fill: rgb(166, 75, 101);
+}
+.label{
+	-fx-font-family: "Times New Roman";
+	-fx-font-size: 18;
+}
+.button{
+	-fx-background-color: linear-gradient(Lightskyblue, rgb(112, 172, 210));
+	-fx-max-height: 60;
+	-fx-max-width: 150;
+	-fx-font-family: "Times New Roman";
+	-fx-font-size: 18;
+	-fx-border-radius: 10px;
+	
+}
+.button:hover{
+	-fx-background-color: steelblue;
+	-fx-transition: 0.7;
+}
+.text-field{
+	-fx-background-color: rgb(235, 226, 235);
+	-fx-backgeound-radius: 10;
+	-fx-border-radius: 10px;
+	-fx-border-color:  rgb(181, 176, 183);
+}
